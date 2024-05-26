@@ -1,0 +1,31 @@
+{
+  "name": "queue-node-koa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "displayName": "Queue Koa Node Application",
+  "scripts": {
+    "dev": "ts-node-dev --inspect -- src/main.ts",
+    "build": "tsc",
+    "start": "node .out/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa__router": "^12.0.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@bull-board/api": "^5.18.3",
+    "@bull-board/koa": "^5.18.3",
+    "@koa/router": "^12.0.1",
+    "axios": "^1.7.2",
+    "bull": "^4.12.9",
+    "koa": "^2.15.3",
+    "sharp": "^0.33.4",
+    "zod": "^3.23.8"
+  },
+  "description": ""
+}
